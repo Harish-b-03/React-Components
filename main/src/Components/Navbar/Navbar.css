@@ -1,6 +1,8 @@
-* {
-    margin:0;
-    padding: 0;
+.navBar_container{
+    display: fixed;
+    position: fixed;
+    top: 0px;
+    margin-bottom: 10px;
 }
 .navBar{
     display: flex;

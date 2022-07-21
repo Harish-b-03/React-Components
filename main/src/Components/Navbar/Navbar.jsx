@@ -1,6 +1,7 @@
 import "./Navbar.css"
 function Navbar() {
   return (
+    <div className="navBar_container">
     <nav className="navBar">
       <div className="navLogo">
         Logo
@@ -23,6 +24,7 @@ function Navbar() {
         </li>
       </ul>
     </nav>
+    </div>
   )
 }
 
